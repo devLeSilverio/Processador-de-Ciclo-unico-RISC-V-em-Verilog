@@ -1,0 +1,57 @@
+$date
+	Fri May 09 20:11:44 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ula_tb $end
+$var wire 32 ! S [31:0] $end
+$var reg 32 " A [31:0] $end
+$var reg 32 # B [31:0] $end
+$var reg 4 $ UlaOp [0:3] $end
+$scope module uut $end
+$var wire 32 % A [31:0] $end
+$var wire 32 & B [31:0] $end
+$var wire 4 ' UlaOp [0:3] $end
+$var reg 32 ( Out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 (
+b0 '
+b1100 &
+b10100 %
+b0 $
+b1100 #
+b10100 "
+b100 !
+$end
+#20
+b11100 !
+b11100 (
+b1 $
+b1 '
+#40
+b100000 !
+b100000 (
+b10 $
+b10 '
+#60
+b1000 !
+b1000 (
+b110 $
+b110 '
+#80
+bz !
+bz (
+b1111 $
+b1111 '
+#100

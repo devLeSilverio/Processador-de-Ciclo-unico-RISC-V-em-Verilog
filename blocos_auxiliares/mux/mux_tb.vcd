@@ -1,0 +1,48 @@
+$date
+	Sun Jun 08 15:24:50 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux_tb $end
+$var wire 32 ! out_selected_data [31:0] $end
+$var reg 32 " data_input_0 [31:0] $end
+$var reg 32 # data_input_1 [31:0] $end
+$var reg 1 $ select_signal $end
+$scope module uut $end
+$var wire 32 % data_input_0 [31:0] $end
+$var wire 32 & data_input_1 [31:0] $end
+$var wire 1 $ select_signal $end
+$var reg 32 ' out_selected_data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1010 '
+b10100 &
+b1010 %
+0$
+b10100 #
+b1010 "
+b1010 !
+$end
+#20
+b10100 !
+b10100 '
+1$
+#40
+b110010 !
+b110010 '
+0$
+b1001011 #
+b1001011 &
+b110010 "
+b110010 %
+#80

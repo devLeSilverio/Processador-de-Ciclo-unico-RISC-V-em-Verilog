@@ -1,0 +1,44 @@
+$date
+	Fri May 16 20:06:57 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module memoria_instrucao_tb $end
+$var wire 32 ! dado [31:0] $end
+$var reg 8 " endereco [7:0] $end
+$scope module uut $end
+$var wire 8 # endereco [7:0] $end
+$var reg 32 $ dado [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111111 $
+b0 #
+b0 "
+b1111111 !
+$end
+#20
+b1100 !
+b1100 $
+b1 "
+b1 #
+#40
+b101111111010011 !
+b101111111010011 $
+b10 "
+b10 #
+#60
+bx !
+bx $
+b11 "
+b11 #
+#80
