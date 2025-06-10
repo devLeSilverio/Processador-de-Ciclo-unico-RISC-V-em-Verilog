@@ -80,7 +80,7 @@ gtkwave testbench_result.vcd
 ├── memoria_registradores.v    # Banco de Registradores
 ├── memoria_dados.v            # Memória de Dados
 ├── datapath.v                 # Caminho de Dados
-├── tb.v                       # Testbench para simulação
+├── testbench_tb.v                       # Testbench para simulação
 ├── Makefile                   # Script para automação
 └── README.md                  # Documentação do projeto
 ```
